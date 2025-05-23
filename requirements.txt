@@ -1,7 +1,32 @@
-streamlit==1.28.0
-numpy==1.24.3
-librosa==0.10.1
-matplotlib==3.7.2
-plotly==5.18.0
-pandas==2.0.3
-pillow==10.0.1
+# Core Streamlit and Web Framework
+streamlit>=1.28.1
+
+# Audio Processing - Use newer versions compatible with Python 3.12
+librosa>=0.10.1
+soundfile>=0.12.1
+
+# Computer Vision - Use precompiled wheels
+opencv-python>=4.8.1.78
+
+# Image Processing
+Pillow>=10.0.1
+
+# Scientific Computing - Updated for Python 3.12
+numpy>=1.26.0  # Updated for Python 3.12 compatibility
+scipy>=1.11.4
+
+# Visualization - Use newer matplotlib
+matplotlib>=3.8.0
+
+# Audio Format Support
+pydub>=0.25.1
+
+# Performance (Optional)
+numba>=0.58.1
+
+# Video Processing
+imageio>=2.31.5
+imageio-ffmpeg>=0.4.9
+
+# Memory Management
+psutil>=5.9.6
