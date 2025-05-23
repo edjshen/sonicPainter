@@ -195,7 +195,7 @@ def main():
         
         visual_type = st.selectbox(
             "Visual Type",
-            ["Circular Spectrum", "Waveform Tunnel", "Fractal Mandala", "Audio Reactive Mesh", "Oscilloscope XY", "Oscilloscope Lines"]
+            ["Circular Spectrum", "Waveform Tunnel", "Fractal Mandala", "Audio Reactive Mesh", "Oscilloscope XY", "Oscilloscope Lines"],index = 5
         )
         
         # Show oscilloscope info
