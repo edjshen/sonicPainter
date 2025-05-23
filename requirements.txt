@@ -1,27 +1,27 @@
 # Core Streamlit and Web Framework
 streamlit>=1.28.1
 
-# Audio Processing - Use newer versions compatible with Python 3.12
+# Audio Processing
 librosa>=0.10.1
 soundfile>=0.12.1
 
-# Computer Vision - Use precompiled wheels
-opencv-python>=4.8.1.78
+# Computer Vision - Use headless version for cloud deployment
+opencv-python-headless>=4.8.1.78
 
 # Image Processing
 Pillow>=10.0.1
 
-# Scientific Computing - Updated for Python 3.12
-numpy>=1.26.0  # Updated for Python 3.12 compatibility
+# Scientific Computing
+numpy>=1.26.0
 scipy>=1.11.4
 
-# Visualization - Use newer matplotlib
+# Visualization
 matplotlib>=3.8.0
 
 # Audio Format Support
 pydub>=0.25.1
 
-# Performance (Optional)
+# Performance
 numba>=0.58.1
 
 # Video Processing
@@ -30,3 +30,6 @@ imageio-ffmpeg>=0.4.9
 
 # Memory Management
 psutil>=5.9.6
+
+# Collections for oscilloscope mode
+collections-extended>=2.0.2
